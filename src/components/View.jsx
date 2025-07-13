@@ -35024,10 +35024,10 @@ const View = () => {
                                     return (
                                         <div className="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
                                         <div class="card flex-fill h-100 bg-secondary">
-  <img src={value.url} class="card-img-top" alt="..."></img>
+  <img src="https://i.pinimg.com/1200x/d5/6e/27/d56e2766a702e3642189a6e4dad9fa0e.jpg" class="card-img-top" alt="..." width={100} height={250}></img>
   <div class="card-body">
     <h5 class="card-title">{value.title}</h5>
-     <img src={value.thumbnailUrl} class="card-img-top" alt="..."></img>
+     <img src={value.thumbnailUrl} class="card-img-top" alt="..." ></img>
   </div></div>
 </div>
                                     )
